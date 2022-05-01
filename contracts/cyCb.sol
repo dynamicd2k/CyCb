@@ -1,6 +1,6 @@
 pragma solidity ^0.8.0;
 
-contract IDSERC721{
+contract cyCb{
     // Token name
     string  _nameNFT;
 
