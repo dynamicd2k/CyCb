@@ -18,8 +18,8 @@ contract cyCb{
      * @dev Initializes the contract by setting a `name` and a `symbol` to the token collection.
      */
     constructor() {
-        _nameNFT = "IDSNFTTOKEN";
-        _symbolNFT = "IDSNFT";
+        _nameNFT = "cycbNFTTOKEN";
+        _symbolNFT = "cycbNFT";
     }
         function mintNFT(address to, uint256 tokenId) internal virtual {
         require(to != address(0), "ERC721: mint to the zero address");
